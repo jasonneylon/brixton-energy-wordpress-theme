@@ -1,0 +1,44 @@
+/*
+Theme Name:     brixtonenergy
+Theme URI:      http://noscope.com/2013/twenty-thirteen-make-it-yours/
+Description:    Green color scheme for Twenty Thirteen.
+Author:         Jason Neylon
+Author URI:     http://jasonneylon.wordpress.com
+Template:       twentythirteen
+Version:        1.0.0
+*/
+
+h1.site-title {
+	background: url(images/brixtonenergylogo.png) no-repeat scroll 0 0 transparent;
+	color: transparent;
+	height: 160px;
+	width: 347px;
+}
+
+h2.site-description {
+	color: white;
+	margin-top: 10px;
+}	
+
+.navbar {
+	background-color: deepskyblue;
+}
+
+.site-footer .sidebar-container {
+	background-color: paleturquoise;
+}
+
+.site-footer .widget li, .site-footer .widget li a, .site-footer .sidebar-container h3  {
+	color: black;
+}
+
+.site-footer {
+	background-color: deepskyblue;
+}
+.widget {
+	background-color: rgba(244,236,104, 0.7);
+}
+
+.navbar li a {
+			color: white !important;
+}
