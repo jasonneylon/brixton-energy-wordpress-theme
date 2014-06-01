@@ -5,7 +5,7 @@
 
 function theme_brixtonenergy_custom_header_setup() { 
 
-	add_theme_support( 'custom-header', array( 'default-image' => '%2$s/header-brixtonenergy.png' ) );
+	add_theme_support( 'custom-header', array( 'default-image' => '//dcumwracsem90.cloudfront.net/wp-content/themes/brixtonenergy/header-brixton.png' ) );
 
 	register_default_headers( array(
 	    'brixtonenergy' => array(

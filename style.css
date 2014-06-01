@@ -1,6 +1,6 @@
 /*
 Theme Name:     brixtonenergy
-Theme URI:      http://noscope.com/2013/twenty-thirteen-make-it-yours/
+Theme URI:      https://github.com/jasonneylon/brixton-energy-wordpress-theme/
 Description:    Brixton Energy theme built on twenty thirteen.
 Author:         Jason Neylon
 Author URI:     http://jasonneylon.wordpress.com
@@ -19,6 +19,20 @@ h2.site-description {
 	color: white;
 	margin-top: 10px;
 }	
+
+@media all and (max-width: 580px) {
+	h1.site-title {
+		background: url(https://brixtonenergy.co.uk/wp-content/uploads/2013/12/brixtonenergylogo-small.png) no-repeat scroll 0 0 transparent;
+		height: 115px;
+		width: 250px;
+	}
+
+	h2.site-description {
+		margin-top: 0px;
+	}	
+
+}
+
 
 .navbar {
 	background-color: deepskyblue;
@@ -41,4 +55,8 @@ h2.site-description {
 
 .navbar li a {
 			color: white !important;
+}
+
+.entry-content td img {
+    max-width: none; 
 }
